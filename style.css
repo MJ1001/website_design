@@ -310,6 +310,7 @@ nav {
 
 .social-links img {
   padding: 0px 20px;
+  cursor: pointer;
 }
 
 .logo,

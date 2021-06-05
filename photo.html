@@ -8,11 +8,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="pages.css">
     </head>
     <body>
         <main>
             <nav>
-                <a class = "aa" href="index.html"><h3 class = "logo">Munjal Prajapati</h3></a>
+                <h3 class = "logo" onclick="window.location.href='./index.html'">Munjal Prajapati</h3> 
                 <svg class = "menu" width="43" height="23" viewBox="0 0 43 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                  <line y1="1.5" x2="43" y2="1.5" stroke="white" stroke-width="3"/>
                  <line y1="11.5" x2="28" y2="11.5" stroke="white" stroke-width="3"/>
@@ -22,15 +23,15 @@
                  <div class="contact">
                      <h3>contact</h3>
                      <p>
-                         1234567890
+                        munjalprajapati@gmail.com
                      </p>
                  </div>
                  <div class="social">
                      <h3>Social</h3>
                      <div class="social-links">                  
-                         <img src="./img/Facebook.svg" alt="">
-                         <img src="./img/Instagram.svg" alt="">
-                         <img src="./img/Twitter.svg" alt="">
+                        <img onclick="window.location.href='https://www.linkedin.com/in/munjalprajapati/'" src="./img/linkedin.svg" alt="">
+                        <img onclick="window.location.href='https://www.instagram.com/munjalprajapati/'" src="./img/Instagram.svg" alt="">
+                        <img onclick="window.location.href='https://github.com/MJ1001'" src="./img/github.svg" alt="">
                      </div>
                  </div>
              </div>    
@@ -38,7 +39,7 @@
             <div class ="banner1">
                 <img src = "img/photo-bg.jpg" alt="">
                 <div class="author">
-                    <h1>Elena Morell</h1>
+                    <h1>Isabella Garcia</h1>
                     <h3>Photographer</h3>
 
                 </div>
@@ -82,7 +83,16 @@
             </div>
         </main>
         
-        
-    <script src="app.js"></script>    
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+        integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+        crossorigin="anonymous"
+      ></script>        
+    <script src="pages.js"></script>    
     </body>
 </html>
